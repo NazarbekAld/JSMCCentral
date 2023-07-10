@@ -1,11 +1,17 @@
+/**
+    Note that .. refer to plugin datafolder path.
+*/
 import * as Std from "../libs/std.mjs";
+
+// Where Loader got from?
+// Ans: Loader registered manualy in script by plugin.
 
 console.info("Hi");
 
 Std.Scheduler.task(() => {
 
     // Sync task that executes after start of the script.
-    
+
     Std.Listener.on(Loader, "PlayerJumpEvent", (event) => 
     { event.getPlayer().sendMessage("You jumped.") })
     
