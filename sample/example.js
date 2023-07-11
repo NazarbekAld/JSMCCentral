@@ -1,7 +1,7 @@
 /**
     Note that .. refer to plugin datafolder path.
 */
-import * as Std from "../libs/std.mjs";
+import * as Std from "../libs/std/std.mjs";
 
 // Where Loader got from?
 // Ans: Loader registered manualy in script by plugin.
